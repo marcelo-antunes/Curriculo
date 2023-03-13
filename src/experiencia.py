@@ -1,5 +1,4 @@
 import plotly.express as px
-#import plotly.graph_objects as go
 import pandas as pd
 
 df = pd.read_excel('./data/experiencia.xlsx')
@@ -48,5 +47,4 @@ fig.update_yaxes(title_text="",
                  autorange="reversed"
 )
 
-#fig.show()
 fig.write_image('./img/experiencias3.png', scale=10)
