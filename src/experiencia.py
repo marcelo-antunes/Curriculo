@@ -47,4 +47,4 @@ fig.update_yaxes(title_text="",
                  autorange="reversed"
 )
 
-fig.write_image('./img/experiencias.png', scale=10)
+fig.write_image('./img/experiencia.png', scale=10)
