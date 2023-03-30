@@ -1,7 +1,7 @@
 import plotly.express as px
 import pandas as pd
 
-df = pd.read_excel('./data/experiencia.xlsx')
+df = pd.read_excel('../data/experiencia.xlsx')
 
 df['start_date'] = pd.to_datetime(df['start_date'],format='%Y')
 df['end_date'] = pd.to_datetime(df['end_date'],format='%Y')
@@ -47,4 +47,4 @@ fig.update_yaxes(title_text="",
                  autorange="reversed"
 )
 
-fig.write_image('./img/experiencia.png', scale=10)
+fig.write_image('../img/experiencia2.png', scale=10)

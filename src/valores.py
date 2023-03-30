@@ -9,4 +9,4 @@ mask = 255 * mask.astype(int)
 
 wc = WordCloud(mode="RGBA", background_color="rgba(0,0,0,0)", repeat=True, mask=mask)
 wc.generate(text)
-wc.to_file('./img/words.png')
+wc.to_file('../img/words3.png')
